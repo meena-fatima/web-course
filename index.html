@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>main page</title>
+    <style>
+        header {
+            width: 100%;
+            height: 15vh;
+            background-color: rgb(155, 185, 252);
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .logo img {
+            width: 100px;
+            height: 15vh;
+            
+        }
+
+        .list {
+            display: flex;
+            gap: 60px;
+            padding-top: 15px;
+        }
+
+        li {
+            list-style: none;
+            /* justify-content: space-between; */
+        }
+
+        a {
+            text-decoration: none;
+        
+        }
+        .primaryheader{
+            display: flex;
+        }
+
+        .bg {
+            background-image: url(./images.jpg);
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: 100% 100Vh;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo"><img src="../Untitled.png" alt="">
+        </div>
+        <nav class="primaryheader">
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Introduction</a></li>
+                <li><a href="#">Organization</a></li>
+                <li><a href="#">About Us </a></li>
+
+            </ul>
+        </nav>
+
+
+    </header>
+    <div class="bg">
+
+    </div>
 </body>
+
 </html>
