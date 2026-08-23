@@ -1,0 +1,654 @@
+.whatsapp {
+    position: fixed;
+    animation: moves 2s infinite alternate-reverse;
+    z-index: 1;
+
+}
+
+.whatsapp img {
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 205vh;
+
+
+}
+
+@keyframes moves {
+    0% {
+        left: 0px;
+        bottom: 0%;
+    }
+
+    50% {
+        right: 10px;
+    }
+
+    100% {
+        left: 0px;
+        bottom: 0%;
+    }
+}
+
+.arrow {
+    position: fixed;
+    animation: move 2s infinite alternate-reverse;
+    width: 30px;
+    height: 20px;
+    z-index: 1;
+}
+
+.arrow img {
+    width: 100%;
+
+}
+
+@keyframes move {
+    0% {
+        left: 0px;
+        bottom: 0%;
+    }
+
+    50% {
+        bottom: 50px;
+        left: 0px;
+    }
+
+    100% {
+        left: 0px;
+        bottom: 0%;
+    }
+
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px gray;
+    z-index: 1;
+}
+
+.logo {
+    width: 30%;
+    height: 15vh;
+}
+
+.logo img {
+    width: 210px;
+    height: 6vh;
+    /* padding-left: 70px; */
+    padding-top: 20px;
+}
+
+.list {
+    display: flex;
+    width: 110%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+.hero {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/Artificial.jpg);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+
+.hero h1 {
+    font-size: 60px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: azure;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15vh;
+    padding-top: 40px;
+}
+
+.hero p {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+
+}
+
+.hero button {
+    position: absolute;
+    top: 70%;
+    left: 13%;
+    background-color: rgba(255, 119, 56, 0.845);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    width: 12%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero button:hover {
+    background-color: gainsboro;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    height: 35vh;
+    background-color: oklch(28.2% .091 267.935);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.foot {
+    width: 40%;
+    color: white;
+    padding-top: 60px;
+    padding-left: 90px;
+}
+
+.foot li {
+    width: 40%;
+    color: gainsboro;
+    padding-top: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.foot-1 {
+    width: 40%;
+    color: white;
+    padding-top: 55px;
+}
+
+.foot-1 h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.foot-1 li {
+    width: 40%;
+    color: gainsboro;
+    padding-top: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.foot-2 h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.foot-2 {
+    width: 40%;
+    color: white;
+    padding-top: 23px;
+}
+
+.foot-2 li {
+    width: 40%;
+    color: gainsboro;
+    padding-top: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.foot-3 {
+    width: 40%;
+    color: white;
+    padding-top: 10px;
+}
+
+.foot-3 h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.foot-3 li {
+    width: 40%;
+    padding-top: 15px;
+}
+
+.foot-3 p {
+    padding-top: 5px;
+    color: gainsboro;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.foot-3 h2 {
+    padding-top: 55px;
+
+}
+
+.foot-4 {
+    background-color: oklch(28.2% .091 267.935);
+    justify-content: center;
+    height: 15vh;
+    color: gainsboro;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+}
+
+.card {
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px 20px 10px 10px;
+}
+
+.card1 {
+    background-color: white;
+    width: 22%;
+    height: 67vh;
+    border-radius: 10px 10px 10px 10px;
+    border: 0.5px rgb(147, 141, 141) solid;
+
+}
+
+.card1 p {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.card1 img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 32vh;
+}
+
+.card1 h2 {
+    color: black;
+    margin-left: 10px;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+
+.card1 h3 {
+    color: black;
+    margin-left: 10px;
+    font-family: sans-serif;
+    padding-top: 4px;
+}
+
+.card button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 85%;
+    height: 35px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.card button:hover {
+    background-color: rgb(255, 132, 31);
+}
+
+.card1:hover {
+    box-shadow: 0px 0px 3px 0px;
+}
+
+
+.foot-0 {
+    color: black;
+    background-color: white;
+}
+
+
+.paper {
+    background-color: white;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px 20px 10px 10px;
+}
+
+.paper2 {
+    background-color: white;
+    width: 22%;
+    height: 67vh;
+    border-radius: 10px 10px 10px 10px;
+    border: 0.5px rgb(147, 141, 141) solid;
+
+}
+
+.paper2:hover {
+    box-shadow: 0px 0px 3px 0px;
+}
+
+.paper2 img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 32vh;
+}
+
+.paper2 h2 {
+    color: black;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+.paper2 h3 {
+    color: black;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+.paper2 p {
+
+    margin-top: -3px;
+    padding: 0px 14px 0px 14px;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-top: 5px;
+
+}
+
+.paper button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 90%;
+    height: 35px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.paper button:hover {
+    background-color: rgb(255, 132, 31);
+}
+
+.primaryheader {
+    width: 60%;
+    display: flex;
+}
+
+.homi {
+    width: 28%;
+    height: 20px;
+    cursor: pointer;
+    transition: 2s;
+    line-height: 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.homi ul {
+    display: none;
+    transition: 2s;
+    margin-top: -5px;
+    padding-left: 25px;
+    border-radius: 10px;
+    padding-top: 10px;
+
+}
+
+.homi:hover ul {
+    display: block;
+    background-color: white;
+
+}
+
+.about {
+    width: 25%;
+    height: 24px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 2s;
+    line-height: 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.about ul {
+    display: none;
+    transition: 2s;
+    margin-top: -5px;
+    padding-left: 13px;
+    border-radius: 10px;
+    padding-top: 15px;
+
+}
+
+.about:hover ul {
+    display: block;
+    background-color: white;
+
+}
+
+.grade {
+    width: 28%;
+    height: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 2s;
+    line-height: 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grade ul {
+    display: none;
+    transition: 2s;
+    margin-top: -5px;
+    padding-left: 13px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+.grade:hover ul {
+    display: block;
+
+    background-color: white;
+
+}
+
+.pencil {
+    width: 27%;
+    height: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 2s;
+    line-height: 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.pencil ul {
+    display: none;
+    transition: 2s;
+    margin-top: -5px;
+    border-radius: 10px;
+    padding-left: 13px;
+    padding-top: 15px;
+}
+
+.pencil:hover ul {
+    display: block;
+
+    background-color: white;
+
+}
+
+.call {
+    width: 10%;
+    height: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 2s;
+    line-height: 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lab {
+    width: 27%;
+    height: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 2s;
+    line-height: 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lab ul {
+    display: none;
+    transition: 2s;
+    margin-top: -5px;
+    padding-left: 13px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+.lab:hover ul {
+    display: block;
+    background-color: white;
+}
+
+#gradi {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgb(177, 176, 176), white);
+    margin-bottom: 0px;
+}
+
+.trend {
+    width: 100%;
+    height: 70vh;
+    padding-top: 90px;
+}
+
+.trend h2 {
+    padding-left: 40%;
+    font-size: 7vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1a174d;
+    font-weight: bold;
+}
+
+.trend h4 {
+    padding-left: 31%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f7941d;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+@media (max-width:900px) {
+    .card {
+        flex-direction: column;
+        width: 47%;
+    }
+
+    .card1 {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .glass {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+}
+
+@media (max-width:600px) {
+    .glass {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 240vh;
+    }
+
+    footer {
+        flex-direction: column;
+        height: inherit;
+    }
+
+    .hero h1 {
+        font-size: 7vh;
+        text-align: center;
+        left: 0;
+        /* top: 0; */
+    }
+
+    .hero p {
+        left: 0;
+    }
+
+    .hero button {
+        width: 50%;
+    }
+
+    .trend h2 {
+        padding-left: 0%;
+
+        text-align: center;
+    }
+
+    .trend h4 {
+        padding-left: 0%;
+    }
+
+    .logo img {
+        width: 100%;
+        height: 40px;
+    
+    }
+    .primaryheader {
+    width: 80%;
+    justify-content: space-around;
+}
+}
+
+
+
+/* @media (max-width:630px) { 
+        .box{
+            flex-direction: column;
+        }
+        .paper{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+}  */
