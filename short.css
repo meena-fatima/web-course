@@ -323,50 +323,16 @@ footer {
 }
 
 
-
-.foot-0 {
-    color: black;
-    background-color: white;
-}
-
-.feel {
-    color: black;
-    background-color: white;
-    height: 300px;
-    width: 250%;
-    display: flex;
-}
-
-.feel p {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.7;
-    padding-right: 5%;
-    padding-left: 2%;
-    text-align: justify;
-}
-
-.feel img {
-    width: 30%;
-    height: 85%;
-    margin-right: 50px;
-}
-
-.feel-2 {
-    background-color: white;
-    color: darkblue;
-    height: 180px;
-}
-
-.paper {
+.paper1 {
     background-color: white;
     width: 100%;
-    height: 75vh;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
     border-radius: 20px 20px 10px 10px;
 }
 
-.paper1 {
+.card2 {
     background-color: white;
     width: 22%;
     height: 67vh;
@@ -375,179 +341,48 @@ footer {
 
 }
 
-.paper1 img {
+.card2 img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
     height: 32vh;
 }
 
-.paper1 h2 {
+.card2 h2 {
     color: black;
     margin-left: 10px;
     font-family: sans-serif;
+    padding-top: 5px;
 }
 
-.paper1 h3 {
+.card2 h3 {
     color: black;
     margin-left: 10px;
     font-family: sans-serif;
+    padding-top: 4px;
 }
 
-.paper1 p {
+.card2 p {
 
     margin-top: -3px;
     padding: 0px 14px 0px 14px;
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1.2;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     text-transform: capitalize;
-    padding-top: 5px;
-
+    padding-top: 10px;
 }
 
-.paper1:hover {
-    box-shadow: 0px 0px 3px 0px;
-}
-
-.paper2 {
-    background-color: white;
-    width: 22%;
-    height: 67vh;
-    border-radius: 10px 10px 10px 10px;
-    border: 0.5px rgb(147, 141, 141) solid;
-
-}
-
-.paper2:hover {
-    box-shadow: 0px 0px 3px 0px;
-}
-
-.paper2 img {
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
-    height: 32vh;
-}
-
-.paper2 h2 {
-    color: black;
-    margin-left: 10px;
-    font-family: sans-serif;
-}
-
-.paper2 h3 {
-    color: black;
-    margin-left: 10px;
-    font-family: sans-serif;
-}
-
-.paper2 p {
-
-    margin-top: -3px;
-    padding: 0px 14px 0px 14px;
-    text-align: justify;
-    line-height: 1.5;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
-    text-transform: capitalize;
-    padding-top: 5px;
-
-}
-
-.paper3 {
-    background-color: white;
-    width: 22%;
-    height: 67vh;
-    border-radius: 10px 10px 10px 10px;
-    border: 0.5px rgb(147, 141, 141) solid;
-}
-
-.paper3:hover {
-    box-shadow: 0px 0px 3px 0px;
-}
-
-.paper3 img {
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
-    height: 32vh;
-}
-
-.paper3 h2 {
-    color: black;
-    margin-left: 10px;
-    font-family: sans-serif;
-}
-
-.paper3 h3 {
-    color: black;
-    margin-left: 10px;
-    font-family: sans-serif;
-}
-
-.paper3 p {
-
-    margin-top: -3px;
-    padding: 0px 14px 0px 14px;
-    text-align: justify;
-    line-height: 1.5;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
-    text-transform: capitalize;
-    padding-top: 5px;
-}
-
-.paper4 {
-    background-color: white;
-    width: 22%;
-    height: 67vh;
-    border-radius: 10px 10px 10px 10px;
-    border: 0.5px rgb(147, 141, 141) solid;
-
-}
-
-.paper4 img {
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
-    height: 32vh;
-}
-
-.paper4 h2 {
-    color: black;
-    margin-left: 10px;
-    font-family: sans-serif;
-}
-
-.paper4 h3 {
-    color: black;
-    margin-left: 10px;
-    font-family: sans-serif;
-}
-
-.paper4 p {
-
-    margin-top: -3px;
-    padding: 0px 14px 0px 14px;
-    text-align: justify;
-    line-height: 1.5;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
-    text-transform: capitalize;
-    padding-top: 5px;
-}
-
-.paper4:hover {
-    box-shadow: 0px 0px 3px 0px;
-}
 
 .paper button {
     background-color: black;
     color: white;
     border-radius: 5px;
-    width: 90%;
+    width: 85%;
     height: 35px;
     font-family: sans-serif;
     margin-top: 30px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     border: none;
     cursor: pointer;
     font-size: 15px;
@@ -557,52 +392,8 @@ footer {
     background-color: rgb(255, 132, 31);
 }
 
-.stone {
-    justify-content: center;
-    padding-left: 30%;
-    line-height: 30px;
-    height: 100%;
-    padding-bottom: 80px;
-}
-
-.stone h1 {
-    font-size: 15vh;
-    padding-bottom: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 0vh;
-}
-
-.stone h3 {
-    padding-left: 13vh;
-    font-size: 4vh;
-    padding-bottom: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.stone p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: justify;
-    margin-right: 50%;
-}
-
-.stone1 button {
-    background-color: orange;
-    color: aliceblue;
-    width: 16%;
-    height: 7vh;
-    border-style: none;
-    border-radius: 2px;
-    margin-left: 17%;
-    margin-top: 60px;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    cursor: pointer;
-}
-
-.stone1 button:hover {
-    color: rgb(28, 28, 94);
-    background-color: gainsboro;
-
+.card2:hover {
+    box-shadow: 0px 0px 3px 0px;
 }
 
 .primaryheader {
@@ -672,9 +463,11 @@ footer {
     line-height: 2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.grade a{
- list-style-type: none;   
+
+.grade a {
+    list-style-type: none;
 }
+
 .grade ul {
     display: none;
     transition: 2s;
@@ -754,31 +547,9 @@ footer {
 
 #gradi {
     width: 100%;
-    height: 50vh;
+    height: 20vh;
     background-image: linear-gradient(rgb(177, 176, 176), white);
     margin-bottom: 0px;
-}
-
-.trend {
-    width: 100%;
-    height: 70vh;
-    padding-top: 90px;
-}
-
-.trend h2 {
-    padding-left: 40%;
-    font-size: 7vh;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #1a174d;
-    font-weight: bold;
-}
-
-.trend h4 {
-    padding-left: 31%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #f7941d;
-    padding-top: 10px;
-    font-size: 20px;
 }
 
 @media (max-width:900px) {
@@ -800,38 +571,22 @@ footer {
 
 }
 
-
-
 @media (max-width:900px) {
-    .paper {
+    .paper1 {
         flex-direction: column;
-        width: 47%;
+        width: 100%;
+        height: 220vh;
     }
 
-    .paper1 {
+    .card2{
         width: 100%;
         margin-bottom: 40px;
-
     }
 
-    .box {
+    .paper {
         width: 100%;
         display: flex;
         justify-content: space-around;
-
-    }
-
-}
-
-@media (max-width:630px) {
-    .box {
-        flex-direction: column;
-    }
-
-    .paper {
-        width: 100%;
-        margin-bottom: 20px;
-        height: 220vh;
     }
 
 }
@@ -845,6 +600,11 @@ footer {
         width: 100%;
         margin-bottom: 20px;
         height: 220vh;
+    }
+
+    .paper {
+        flex-direction: column;
+        
     }
 
     footer {
@@ -870,15 +630,6 @@ footer {
         width: 35%;
     }
 
-    .trend h2 {
-        padding-left: 0%;
-        text-align: center;
-    }
-
-    .trend h4 {
-        padding-left: 2%;
-        font-size: 17px;
-    }
 
     .logo {
         width: 31%;
@@ -903,64 +654,15 @@ footer {
         width: 100%;
         padding-bottom: 15px;
     }
-
-    .stone h1 {
-        font-size: 9vh;
-        padding-left: 0vh;
-    }
-
-    .stone h3 {
-        padding-left: 1px;
-    }
-
-    .stone p {
-        line-height: 2;
-        text-align: justify;
-        padding-top: 10px;
-        margin-right: 0;
-    }
-
-    .stone {
-        padding-left: 85px;
-
-    }
-
-    .stone1 button {
-        width: 130px;
-        height: 50px;
-    }
-
-    .feel {
-        flex-direction: column;
-        /* height: 90vh; */
-        height: 70vh;
-        width: 100%;
-    }
-
-    .feel img {
-        width: 90%;
-        height: 50%;
-        margin-right: 0;
-        padding-left: 20px;
-        padding-top: 30px;
-    }
-
-    .feel p {
-        line-height: 2;
-        text-align: justify;
-    }
-
-    .feel-2 {
-        width: 100%;
-    }
-
     .foot {
         padding-left: 9px;
     }
+
     .hero {
         height: 75vh;
     }
-    body{
+
+    body {
         margin: 0;
     }
 
